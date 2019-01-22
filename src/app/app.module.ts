@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { PerfomanceModule } from 'src/app/perfomance/perfomance.module';
 import { AppComponent } from './app.component';
+import { PerfomanceModule } from './perfomance/perfomance.module';
 
 @NgModule({
   declarations: [AppComponent],

@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
-import { averagePerfomance } from 'src/app/perfomance/average-perfomance';
+import { averagePerfomance } from './average-perfomance';
 import { rnd } from './rnd';
 
 @Component({
