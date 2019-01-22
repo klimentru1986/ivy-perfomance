@@ -1,5 +1,5 @@
-import { Component, OnInit, Input, AfterViewInit } from '@angular/core';
-import { childPerf } from './child-perf';
+import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
+import { averagePerfomance } from '../average-perfomance';
 
 @Component({
   selector: 'app-child',
@@ -16,6 +16,6 @@ export class ChildComponent implements OnInit, AfterViewInit {
   ngAfterViewInit() {
     const res = performance.now();
 
-    childPerf.push(res - this.perf);
+    averagePerfomance.push(res - this.perf);
   }
 }
